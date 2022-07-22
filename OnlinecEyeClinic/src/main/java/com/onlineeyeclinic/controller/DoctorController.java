@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.onlineeyeclinic.dto.Appointment;
+import com.onlineeyeclinic.dto.Doctor;
+import com.onlineeyeclinic.exceptions.DoctorIdNotFoundException;
+import com.onlineeyeclinic.exceptions.UserNameAlreadyExistException;
+import com.onlineeyeclinic.service.IDoctorService;
+
 
 
 @RestController
